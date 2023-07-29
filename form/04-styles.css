@@ -711,9 +711,7 @@
     background-color: var(--color-light-grey);
   }
 
-  .form-field-container input[type="text"]::placeholder,
-  .form-field-container input[type="email"]::placeholder,
-  .form-field-container textarea::placeholder {
+  ::placeholder {
     font-style: italic;
     font-size: var(--font-size-small);
 }
