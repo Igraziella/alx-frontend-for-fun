@@ -686,9 +686,9 @@
     padding: 0 0 .5rem;
   }
 
-  form input [type="text"],
-  form input [type="email"],
-  form textarea {
+  .form-field-container input [type="text"],
+  .form-field-container input [type="email"],
+  .form-field-container textarea {
     position: relative;
     width: 100%;
     padding: 1.2rem;
@@ -699,21 +699,21 @@
     outline: 0;
   }
 
-  form input [type="text"],
-  form input [type="email"] {
+  .form-field-container input [type="text"],
+  .form-field-container input [type="email"] {
     padding-right: 3rem;
   }
 
-  form input [type="text"]:focus,
-  form input [type="email"]:focus,
-  form textarea:focus {
+  .form-field-container input [type="text"]:focus,
+  .form-field-container input [type="email"]:focus,
+  .form-field-container textarea:focus {
     border: .1rem solid var(--color-grey);
     background-color: var(--color-light-grey);
   }
 
-  form input[type="text"]::placeholder,
-  form input[type="email"]::placeholder,
-  form textarea::placeholder {
+  .form-field-container input[type="text"]::placeholder,
+  .form-field-container input[type="email"]::placeholder,
+  .form-field-container textarea::placeholder {
     font-style: italic;
     font-size: var(--font-size-small);
 }
