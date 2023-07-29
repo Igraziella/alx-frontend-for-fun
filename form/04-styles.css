@@ -702,11 +702,11 @@
   .form-field-container input [type="text"],
   .form-field-container input [type="email"] {
     padding-right: 3rem;
-  }
+  } 
 
-  .form-field-container input [type="text"]:focus,
-  .form-field-container input [type="email"]:focus,
-  .form-field-container textarea:focus {
+  form input [type="text"]:focus,
+  form input [type="email"]:focus,
+  form textarea:focus {
     border: .1rem solid var(--color-grey);
     background-color: var(--color-light-grey);
   }
