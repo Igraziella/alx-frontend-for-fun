@@ -686,9 +686,9 @@
     padding: 0 0 .5rem;
   }
 
-  .form-field-container input [type="text"],
-  .form-field-container input [type="email"],
-  .form-field-container textarea {
+  input [type="text"],
+  input [type="email"],
+  textarea {
     position: relative;
     width: 100%;
     padding: 1.2rem;
@@ -699,8 +699,8 @@
     outline: 0;
   }
 
-  .form-field-container input [type="text"],
-  .form-field-container input [type="email"] {
+  form input [type="text"],
+  form input [type="email"] {
     padding-right: 3rem;
   } 
 
