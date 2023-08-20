@@ -1,0 +1,7 @@
+/* Assign text color to elements in the body using nested declarations*/
+body {
+	color: #3D3D3D;
+	}
+	body .red {
+		color: #FF0000;
+		}
